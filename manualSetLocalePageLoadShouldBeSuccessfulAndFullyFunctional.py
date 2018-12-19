@@ -11,8 +11,7 @@ class ManualLocalePageVerifier(BrowserTester):
 			self.verifySuccessfulPageLoad()
 
 		except Exception as err:
-			self.setTerminalColors(STYLE_FAILED)
-			print ("[ERROR] Incorrect URL provided as parameter.")
+			self.printErrorMessage ("[ERROR] Incorrect URL provided as parameter.")
 			self.quit()
 
 	def findLocaleButton(self, locale):
@@ -33,14 +32,62 @@ class ManualLocalePageVerifier(BrowserTester):
 			# add id to "Choose a Country", then assert this element
 			assert self.browser.find_by_text(AUSTRALIA)
 			assert self.browser.find_by_text(USA)
-		except Exception as err:
-			self.setTerminalColors(STYLE_FAILED)
-			print ("[ERROR] Expected element/s not displaying on website.")
+
+		except Exception as err: # err variable not used
+			self.printErrorMessage ("[ERROR] Expected element/s not displaying on website.")
 			self.quit()			
+
+class HomePageVerifier(BrowserTester):
+	def testHomePage(self, homePageUrl):
+		try:
+			self.visitUrl(homePageUrl)
+			assert self.browser.url == homePageUrl
+			self.checkElements()
+			# self.findLocaleButton(selectedLocale).click()
+			# self.verifySuccessfulPageLoad()
+
+		except Exception as err:
+			self.printErrorMessage ("[ERROR] Incorrect URL provided as parameter.")
+			self.quit()
+
+	def checkElements(self):
+		try:
+			# add specific message for assertion
+			# catch exact error
+			assert self.browser.find_by_css('div[class="ht-carousel-container pos-fl w-100"') # USP
+			assert self.browser.find_by_css('a[class="header-logo header-logo-image init"') # FMC Logo
+			assert self.browser.find_by_id('ht-products-tab')
+			assert self.browser.find_by_id('ht-sbc-tab')
+			assert self.browser.find_by_id('ht-community-tab')
+			assert self.browser.find_by_id('ht-help-tab')
+			assert self.browser.find_by_css('li[class=ht-search-li')
+			assert self.browser.find_by_css('li[class="hidden-xs hidden-sm ht-account-li"')
+			assert self.browser.find_by_css('li[class=ht-cart-li')
+			
+
+			assert self.browser.find_by_css('div[class=homepage-banner-container')
+			# assert image src = https://d3v52uw9mwsoe.cloudfront.net/fitmycar/static-assets/images/banner-homepage.jpg
+			assert self.browser.find_by_css('div[class=homepage-banner-header')
+			# assert header content "The gear your car needs to look its best"
+			assert self.browser.find_by_css('button[class=sbc-body-button')
+			# assert button text = "Shop by car"
+
+			# Product Category Carousel 
+			productCategoryCarousel = self.browser.find_by_css('div[class=carousel-image-container')
+			# assert productCategoryCarousel
+
+			# print failing element
+			# assert self.browser.find_by_css('div[class="header-logo header-logo-image init"') #should fail assertion
+
+		except Exception as err: # err variable not used
+			self.printErrorMessage ("[ERROR] Expected element/s not displaying on website.")
+			self.quit()
 
 # test functions
 def manualSetLocalePageLoadShouldBeSuccessfulAndFullyFunctional():
-	chromeTester = ManualLocalePageVerifier(CHROME_BROWSER, STAGE_URL_FMC_STOREFRONT)
+	chromeTester = ManualLocalePageVerifier(CHROME_BROWSER)
+	chromeTester.visitUrl(STAGE_URL_FMC_STOREFRONT)
+
 	chromeTester.testLocale(AUSTRALIA)
 	chromeTester.back()
 	chromeTester.testLocale(USA)
@@ -48,11 +95,14 @@ def manualSetLocalePageLoadShouldBeSuccessfulAndFullyFunctional():
 	chromeTester.quit()
 
 def homePageElementsShouldBeDisplayedAndFullyFunctional():
-	chromeTester = BrowserTester(CHROME_BROWSER, STAGE_URL_FMC_STOREFRONT)
+	firefoxTester = HomePageVerifier(FIREFOX_BROWSER)
+	firefoxTester.testHomePage(STAGE_URL_FMC_STOREFRONT + AU_PATH)
+	firefoxTester.quit()
 
 # test execution
 def main():
-	manualSetLocalePageLoadShouldBeSuccessfulAndFullyFunctional()
-	# homePageElementsShouldBeDisplayedAndFullyFunctional()
-	
-main()
+	# manualSetLocalePageLoadShouldBeSuccessfulAndFullyFunctional()
+	homePageElementsShouldBeDisplayedAndFullyFunctional()
+
+if __name__ == "__main__":
+	main()

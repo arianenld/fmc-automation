@@ -5,12 +5,15 @@ from splinter import Browser
 
 class BrowserTester:
 
-	def __init__(self, browser, url):
+	def __init__(self, browser):
 		self.browser = Browser(browser)
+		self.baseUrl = ''
+		self.expectedUrl = ''
+		self.status = TEST_PENDING
+
+	def visitUrl(self, url):
 		self.browser.visit(url)
 		self.baseUrl = url
-		self.expectedUrl = ""
-		self.status = TEST_PENDING
 		self.setTerminalColors(NORMAL_WHITE_FONT)
 
 	def setTerminalColors(self, style):
@@ -20,10 +23,8 @@ class BrowserTester:
 		try:
 			assert self.isCorrectPageSuccessfullyLoaded()
 			self.status = TEST_PASSED
-		except Exception: # as err:
-			self.setTerminalColors(STYLE_FAILED)
-			print ("[ERROR] Page is not successfully loaded.")
-			# print (err)
+		except Exception:
+			printErrorMessage ("[ERROR] Page is not successfully loaded.")
 			self.status = TEST_FAILED
 			self.quit()
 
@@ -48,10 +49,14 @@ class BrowserTester:
 
 	def result(self, testName):
 		if(self.status == TEST_PASSED):
-			self.setTerminalColors(STYLE_PASSED)
+			self.setTerminalColors(STYLED_PASSED)
 
 		elif(self.status == TEST_PENDING):
-			self.setTerminalColors(STYLE_PENDING)
+			self.setTerminalColors(STYLED_PENDING)
 
 		# TEST_FAILED is handled in exception
 		print (testName)
+
+	def printErrorMessage(self, message):
+		self.setTerminalColors(STYLED_FAILED)
+		print (message)

@@ -1,0 +1,410 @@
+1545185964844	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/y3/fkt1k6c56xq6tqwx8c626_800000gp/T/rust_mozprofile.JD3JcwRHLw7y"
+1545185969159	Marionette	INFO	Listening on port 62637
+1545185969240	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.google-analytics.com/gtm/js?id=GTM-TWDS64H&cid=1543315022.1545185988, line 104: unreachable code after return statement
+1545186030472	Marionette	INFO	Stopped listening on port 62637
+1545186807787	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/y3/fkt1k6c56xq6tqwx8c626_800000gp/T/rust_mozprofile.EPAsuFQZItJq"
+1545186811652	Marionette	INFO	Listening on port 49683
+1545186811722	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.google-analytics.com/gtm/js?id=GTM-TWDS64H&cid=1342826561.1545186823, line 104: unreachable code after return statement
+1545186826739	Marionette	INFO	Stopped listening on port 49683
+1545186864923	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/y3/fkt1k6c56xq6tqwx8c626_800000gp/T/rust_mozprofile.DvUKd8FNFQq9"
+1545186867586	Marionette	INFO	Listening on port 50134
+1545186867629	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.google-analytics.com/gtm/js?id=GTM-TWDS64H&cid=463382615.1545186875, line 104: unreachable code after return statement
+1545186879030	Marionette	INFO	Stopped listening on port 50134
+1545187268489	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/y3/fkt1k6c56xq6tqwx8c626_800000gp/T/rust_mozprofile.Q2oCGo0BEuUC"
+1545187271965	Marionette	INFO	Listening on port 52723
+1545187272000	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.google-analytics.com/gtm/js?id=GTM-TWDS64H&cid=667373906.1545187280, line 104: unreachable code after return statement
+1545187283523	Marionette	INFO	Stopped listening on port 52723
+1545187324066	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/y3/fkt1k6c56xq6tqwx8c626_800000gp/T/rust_mozprofile.lshGqN6Vypr4"
+1545187326988	Marionette	INFO	Listening on port 53159
+1545187327060	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.google-analytics.com/gtm/js?id=GTM-TWDS64H&cid=1171691795.1545187338, line 104: unreachable code after return statement
+1545187342158	Marionette	INFO	Stopped listening on port 53159
+1545187357827	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/y3/fkt1k6c56xq6tqwx8c626_800000gp/T/rust_mozprofile.gTOTHg6W3wL2"
+1545187360486	Marionette	INFO	Listening on port 53486
+1545187360516	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.google-analytics.com/gtm/js?id=GTM-TWDS64H&cid=853330885.1545187366, line 104: unreachable code after return statement
+1545187375407	Marionette	INFO	Stopped listening on port 53486
+1545187452720	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/y3/fkt1k6c56xq6tqwx8c626_800000gp/T/rust_mozprofile.bYuiVQ2FCgjf"
+1545187456124	Marionette	INFO	Listening on port 54178
+1545187456253	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.google-analytics.com/gtm/js?id=GTM-TWDS64H&cid=383488164.1545187467, line 104: unreachable code after return statement
+1545187471162	Marionette	INFO	Stopped listening on port 54178
+1545187492354	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/y3/fkt1k6c56xq6tqwx8c626_800000gp/T/rust_mozprofile.etDjPLoQXENk"
+1545187494991	Marionette	INFO	Listening on port 54535
+1545187495056	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.google-analytics.com/gtm/js?id=GTM-TWDS64H&cid=1993050211.1545187503, line 104: unreachable code after return statement
+1545187505594	Marionette	INFO	Stopped listening on port 54535
+1545188444765	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/y3/fkt1k6c56xq6tqwx8c626_800000gp/T/rust_mozprofile.UjuA4OWVwMzJ"
+1545188449353	Marionette	INFO	Listening on port 60591
+1545188449397	Marionette	WARN	TLS certificate errors will be ignored for this session
+1545188535099	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/y3/fkt1k6c56xq6tqwx8c626_800000gp/T/rust_mozprofile.KeNNl1QoOfN8"
+1545188538071	Marionette	INFO	Listening on port 61219
+1545188538116	Marionette	WARN	TLS certificate errors will be ignored for this session
+1545188600869	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/y3/fkt1k6c56xq6tqwx8c626_800000gp/T/rust_mozprofile.YhErT1P2bz4x"
+1545188603771	Marionette	INFO	Listening on port 61677
+1545188603857	Marionette	WARN	TLS certificate errors will be ignored for this session
+1545188651317	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/y3/fkt1k6c56xq6tqwx8c626_800000gp/T/rust_mozprofile.mTb9RoaG6PSG"
+1545188654930	Marionette	INFO	Stopped listening on port 61677
+1545188655092	Marionette	INFO	Listening on port 62036
+1545188655152	Marionette	WARN	TLS certificate errors will be ignored for this session
+1545188658245	Marionette	INFO	Stopped listening on port 61219
+1545188660110	Marionette	INFO	Stopped listening on port 62036
+1545188734764	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/y3/fkt1k6c56xq6tqwx8c626_800000gp/T/rust_mozprofile.MwqYzD8GGHl7"
+1545188737858	Marionette	INFO	Listening on port 62615
+1545188737948	Marionette	WARN	TLS certificate errors will be ignored for this session
+1545188738171	Marionette	INFO	Stopped listening on port 62615
+JavaScript error: resource://activity-stream/lib/TopSitesFeed.jsm, line 86: TypeError: setting getter-only property "_currentSearchHostname"
+1545188743011	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/y3/fkt1k6c56xq6tqwx8c626_800000gp/T/rust_mozprofile.FqHheS4b2NpM"
+1545188745600	Marionette	INFO	Listening on port 62715
+1545188745690	Marionette	WARN	TLS certificate errors will be ignored for this session
+1545188790006	Marionette	INFO	Stopped listening on port 62715
+1545188797410	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/y3/fkt1k6c56xq6tqwx8c626_800000gp/T/rust_mozprofile.hRlX0xHlLqyL"
+1545188800024	Marionette	INFO	Listening on port 63098
+1545188800105	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.google-analytics.com/gtm/js?id=GTM-TWDS64H&cid=734870977.1545188825, line 104: unreachable code after return statement
+1545188869236	Marionette	INFO	Stopped listening on port 63098
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:721:13
+
+1545188988531	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/y3/fkt1k6c56xq6tqwx8c626_800000gp/T/rust_mozprofile.m5YXDxDb9L1r"
+1545188991856	Marionette	INFO	Listening on port 64406
+1545188991974	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.google-analytics.com/gtm/js?id=GTM-TWDS64H&cid=876450413.1545188998, line 104: unreachable code after return statement
+1545189244341	Marionette	INFO	Stopped listening on port 64406
+1545189260208	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/y3/fkt1k6c56xq6tqwx8c626_800000gp/T/rust_mozprofile.cMrXADxLQ8pr"
+1545189263291	Marionette	INFO	Listening on port 49830
+1545189263316	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.google-analytics.com/gtm/js?id=GTM-TWDS64H&cid=787404453.1545189269, line 104: unreachable code after return statement
+1545189277071	Marionette	INFO	Stopped listening on port 49830
+1545189288987	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/y3/fkt1k6c56xq6tqwx8c626_800000gp/T/rust_mozprofile.UOU09vzvdxNs"
+1545189291733	Marionette	INFO	Listening on port 50118
+1545189291761	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.google-analytics.com/gtm/js?id=GTM-TWDS64H&cid=1841107980.1545189299, line 104: unreachable code after return statement
+1545189301515	Marionette	INFO	Stopped listening on port 50118
+1545189355432	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/y3/fkt1k6c56xq6tqwx8c626_800000gp/T/rust_mozprofile.2kgEE9d5Dq0i"
+1545189358294	Marionette	INFO	Listening on port 50705
+1545189358436	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.google-analytics.com/gtm/js?id=GTM-TWDS64H&cid=420761218.1545189366, line 104: unreachable code after return statement
+1545189371767	Marionette	INFO	Stopped listening on port 50705
+1545189894011	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/y3/fkt1k6c56xq6tqwx8c626_800000gp/T/rust_mozprofile.3EPgOmmCd4Ap"
+1545189896898	Marionette	INFO	Listening on port 54258
+1545189896910	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.google-analytics.com/gtm/js?id=GTM-TWDS64H&cid=1529102980.1545189908, line 104: unreachable code after return statement
+1545189909135	Marionette	INFO	Stopped listening on port 54258
+1545190145256	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/y3/fkt1k6c56xq6tqwx8c626_800000gp/T/rust_mozprofile.t92f2hsjeO1p"
+1545190148454	Marionette	INFO	Listening on port 55926
+1545190148497	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.google-analytics.com/gtm/js?id=GTM-TWDS64H&cid=288029943.1545190156, line 104: unreachable code after return statement
+1545190159117	Marionette	INFO	Stopped listening on port 55926
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1545191365727	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/y3/fkt1k6c56xq6tqwx8c626_800000gp/T/rust_mozprofile.wPcOi8X0YpK9"
+1545191368843	Marionette	INFO	Listening on port 63796
+1545191368895	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.google-analytics.com/gtm/js?id=GTM-TWDS64H&cid=1575754452.1545191379, line 104: unreachable code after return statement
+JavaScript warning: https://www.google-analytics.com/gtm/js?id=GTM-TWDS64H&cid=1575754452.1545191379, line 104: unreachable code after return statement
+1545191385281	Marionette	INFO	Stopped listening on port 63796
+1545192197777	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/y3/fkt1k6c56xq6tqwx8c626_800000gp/T/rust_mozprofile.geGKlEJsFBda"
+1545192201068	Marionette	INFO	Listening on port 52739
+1545192201171	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.google-analytics.com/gtm/js?id=GTM-TWDS64H&cid=1105360601.1545192206, line 104: unreachable code after return statement
+1545192211165	Marionette	INFO	Stopped listening on port 52739
+1545196498152	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/y3/fkt1k6c56xq6tqwx8c626_800000gp/T/rust_mozprofile.9Iwppz2sZQ8h"
+1545196501708	Marionette	INFO	Listening on port 61236
+1545196501750	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.google-analytics.com/gtm/js?id=GTM-TWDS64H&cid=1424418963.1545196513, line 104: unreachable code after return statement
+1545196518917	Marionette	INFO	Stopped listening on port 61236
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x160011,name=PBackgroundStorage::Msg_Observe) Channel error: cannot send/recv
+
+1545196712849	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/y3/fkt1k6c56xq6tqwx8c626_800000gp/T/rust_mozprofile.j04tBiY8WjnH"
+1545196715863	Marionette	INFO	Listening on port 62725
+1545196715941	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.google-analytics.com/gtm/js?id=GTM-TWDS64H&cid=124540082.1545196721, line 104: unreachable code after return statement
+1545196823870	Marionette	INFO	Stopped listening on port 62725
+1545196826881	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/y3/fkt1k6c56xq6tqwx8c626_800000gp/T/rust_mozprofile.h59EfcnMP08A"
+1545196829887	Marionette	INFO	Listening on port 63570
+1545196829941	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.google-analytics.com/gtm/js?id=GTM-TWDS64H&cid=1074109000.1545196836, line 104: unreachable code after return statement
+1545196851454	Marionette	INFO	Stopped listening on port 63570
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1545196876352	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/y3/fkt1k6c56xq6tqwx8c626_800000gp/T/rust_mozprofile.DjnOFdxcz7nP"
+1545196879103	Marionette	INFO	Listening on port 63999
+1545196879118	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.google-analytics.com/gtm/js?id=GTM-TWDS64H&cid=2029004469.1545196886, line 104: unreachable code after return statement
+1545196893892	Marionette	INFO	Stopped listening on port 63999
+1545196923487	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/y3/fkt1k6c56xq6tqwx8c626_800000gp/T/rust_mozprofile.zNKXbcvcaTlN"
+1545196926182	Marionette	INFO	Listening on port 64414
+1545196926276	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.google-analytics.com/gtm/js?id=GTM-TWDS64H&cid=93632731.1545196942, line 104: unreachable code after return statement
+1545196944921	Marionette	INFO	Stopped listening on port 64414
+1545196958795	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/y3/fkt1k6c56xq6tqwx8c626_800000gp/T/rust_mozprofile.EXVRtBSHY515"
+1545196961439	Marionette	INFO	Listening on port 64747
+1545196961489	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.google-analytics.com/gtm/js?id=GTM-TWDS64H&cid=625517704.1545196966, line 104: unreachable code after return statement
+1545196983494	Marionette	INFO	Stopped listening on port 64747
+1545197040521	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/y3/fkt1k6c56xq6tqwx8c626_800000gp/T/rust_mozprofile.uguyROFgf7JB"
+1545197043222	Marionette	INFO	Listening on port 65379
+1545197043332	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.google-analytics.com/gtm/js?id=GTM-TWDS64H&cid=388927705.1545197049, line 104: unreachable code after return statement
+1545197054197	Marionette	INFO	Stopped listening on port 65379
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1545197134036	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/y3/fkt1k6c56xq6tqwx8c626_800000gp/T/rust_mozprofile.WxJTaCAHDPB7"
+1545197137452	Marionette	INFO	Listening on port 49689
+1545197137554	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.google-analytics.com/gtm/js?id=GTM-TWDS64H&cid=549789119.1545197153, line 104: unreachable code after return statement
+1545197155630	Marionette	INFO	Stopped listening on port 49689
+1545197644401	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/y3/fkt1k6c56xq6tqwx8c626_800000gp/T/rust_mozprofile.IL23cdae6XHo"
+1545197648008	Marionette	INFO	Listening on port 52997
+1545197648039	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.google-analytics.com/gtm/js?id=GTM-TWDS64H&cid=357096732.1545197660, line 104: unreachable code after return statement
+1545197664532	Marionette	INFO	Stopped listening on port 52997
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1545197882223	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/y3/fkt1k6c56xq6tqwx8c626_800000gp/T/rust_mozprofile.7sNkJr471tOi"
+1545197885908	Marionette	INFO	Listening on port 54597
+1545197885967	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.google-analytics.com/gtm/js?id=GTM-TWDS64H&cid=569081713.1545197908, line 104: unreachable code after return statement
+1545197914589	Marionette	INFO	Stopped listening on port 54597
+1545197932357	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/y3/fkt1k6c56xq6tqwx8c626_800000gp/T/rust_mozprofile.SkRvMIdkqh1w"
+1545197935681	Marionette	INFO	Listening on port 55022
+1545197935779	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.google-analytics.com/gtm/js?id=GTM-TWDS64H&cid=1060324377.1545197948, line 104: unreachable code after return statement
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:721:13
+
+1545197988675	Marionette	INFO	Stopped listening on port 55022
+1545198112560	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/y3/fkt1k6c56xq6tqwx8c626_800000gp/T/rust_mozprofile.VGf48FweiWME"
+1545198116086	Marionette	INFO	Listening on port 56249
+1545198116176	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.google-analytics.com/gtm/js?id=GTM-TWDS64H&cid=335051448.1545198120, line 104: unreachable code after return statement
+1545198128818	Marionette	INFO	Stopped listening on port 56249
+1545198157588	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/y3/fkt1k6c56xq6tqwx8c626_800000gp/T/rust_mozprofile.4OGuK1v8oaAE"
+1545198160863	Marionette	INFO	Listening on port 56633
+1545198160885	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.google-analytics.com/gtm/js?id=GTM-TWDS64H&cid=257001780.1545198172, line 104: unreachable code after return statement
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:721:13
+
+1545198187687	Marionette	INFO	Stopped listening on port 56633
+1545198617916	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/y3/fkt1k6c56xq6tqwx8c626_800000gp/T/rust_mozprofile.3YpvKW3ETj3w"
+1545198620750	Marionette	INFO	Listening on port 59687
+1545198620822	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:721:13
+
+JavaScript warning: https://www.google-analytics.com/gtm/js?id=GTM-TWDS64H&cid=1195382614.1545198701, line 104: unreachable code after return statement
+1545198705451	Marionette	INFO	Stopped listening on port 59687
+1545199132548	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/y3/fkt1k6c56xq6tqwx8c626_800000gp/T/rust_mozprofile.rkqiqBmuE40M"
+1545199135749	Marionette	INFO	Listening on port 63060
+1545199135853	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.google-analytics.com/gtm/js?id=GTM-TWDS64H&cid=1472544628.1545199144, line 104: unreachable code after return statement
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:721:13
+
+1545199187501	Marionette	INFO	Stopped listening on port 63060
+1545199231524	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/y3/fkt1k6c56xq6tqwx8c626_800000gp/T/rust_mozprofile.MZiVOz4Wmriv"
+1545199234214	Marionette	INFO	Listening on port 63805
+1545199234305	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.google-analytics.com/gtm/js?id=GTM-TWDS64H&cid=1813079264.1545199243, line 104: unreachable code after return statement
+1545199245110	Marionette	INFO	Stopped listening on port 63805
+1545199260889	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/y3/fkt1k6c56xq6tqwx8c626_800000gp/T/rust_mozprofile.JxIbmyr4rgtt"
+1545199263620	Marionette	INFO	Listening on port 64086
+1545199263677	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.google-analytics.com/gtm/js?id=GTM-TWDS64H&cid=112515851.1545199269, line 91: unreachable code after return statement
+1545199274222	Marionette	INFO	Stopped listening on port 64086
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1545199350852	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/y3/fkt1k6c56xq6tqwx8c626_800000gp/T/rust_mozprofile.TSZ9msvs6w2L"
+1545199354625	Marionette	INFO	Listening on port 64795
+1545199354654	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.google-analytics.com/gtm/js?id=GTM-TWDS64H&cid=1839062650.1545199367, line 91: unreachable code after return statement
+1545199413485	Marionette	INFO	Stopped listening on port 64795
+1545199418991	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/y3/fkt1k6c56xq6tqwx8c626_800000gp/T/rust_mozprofile.edmPGlMt899E"
+1545199422607	Marionette	INFO	Listening on port 65335
+1545199422719	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.google-analytics.com/gtm/js?id=GTM-TWDS64H&cid=654762157.1545199430, line 91: unreachable code after return statement
+1545199465593	Marionette	INFO	Stopped listening on port 65335
+1545199657457	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/y3/fkt1k6c56xq6tqwx8c626_800000gp/T/rust_mozprofile.a6idXSQp4JXs"
+1545199660179	Marionette	INFO	Listening on port 50618
+1545199660264	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.google-analytics.com/gtm/js?id=GTM-TWDS64H&cid=1840791943.1545199668, line 91: unreachable code after return statement
+1545199674171	Marionette	INFO	Stopped listening on port 50618
+1545199710533	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/y3/fkt1k6c56xq6tqwx8c626_800000gp/T/rust_mozprofile.MSqcoO7BVt6Z"
+1545199714150	Marionette	INFO	Listening on port 51038
+1545199714243	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.google-analytics.com/gtm/js?id=GTM-TWDS64H&cid=1487923914.1545199720, line 91: unreachable code after return statement
+1545199725076	Marionette	INFO	Stopped listening on port 51038
+1545203476610	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/y3/fkt1k6c56xq6tqwx8c626_800000gp/T/rust_mozprofile.SFC8sR24Q96Y"
+1545203482282	Marionette	INFO	Listening on port 59283
+1545203482374	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.google-analytics.com/gtm/js?id=GTM-TWDS64H&cid=1468006460.1545203492, line 91: unreachable code after return statement
+1545203495693	Marionette	INFO	Stopped listening on port 59283
+1545203683217	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/y3/fkt1k6c56xq6tqwx8c626_800000gp/T/rust_mozprofile.H0BLlHYLTuKZ"
+1545203686350	Marionette	INFO	Listening on port 60748
+1545203686410	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.google-analytics.com/gtm/js?id=GTM-TWDS64H&cid=1759841907.1545203698, line 91: unreachable code after return statement
+1545203699683	Marionette	INFO	Stopped listening on port 60748
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1545203883084	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/y3/fkt1k6c56xq6tqwx8c626_800000gp/T/rust_mozprofile.2qhu7ojyQCQB"
+1545203886221	Marionette	INFO	Listening on port 62141
+1545203886275	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.google-analytics.com/gtm/js?id=GTM-TWDS64H&cid=1775581192.1545203895, line 91: unreachable code after return statement
+1545203948743	Marionette	INFO	Stopped listening on port 62141
+1545204165878	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/y3/fkt1k6c56xq6tqwx8c626_800000gp/T/rust_mozprofile.hFgD0rRDQ0Zt"
+1545204168835	Marionette	INFO	Listening on port 64036
+1545204168881	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.google-analytics.com/gtm/js?id=GTM-TWDS64H&cid=1641195883.1545204174, line 91: unreachable code after return statement
+1545204278762	Marionette	INFO	Stopped listening on port 64036
+1545204302120	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/y3/fkt1k6c56xq6tqwx8c626_800000gp/T/rust_mozprofile.PpNrOdgejrTK"
+1545204305008	Marionette	INFO	Listening on port 64986
+1545204305163	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:721:13
+
+JavaScript warning: https://www.google-analytics.com/gtm/js?id=GTM-TWDS64H&cid=2050248208.1545204328, line 91: unreachable code after return statement
+1545204428067	Marionette	INFO	Stopped listening on port 64986
+1545205823420	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/y3/fkt1k6c56xq6tqwx8c626_800000gp/T/rust_mozprofile.oDuaOLlygXjf"
+1545205827133	Marionette	INFO	Listening on port 55019
+1545205827205	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.google-analytics.com/gtm/js?id=GTM-TWDS64H&cid=1138272139.1545205836, line 91: unreachable code after return statement
+1545205901176	Marionette	INFO	Stopped listening on port 55019
+1545206604863	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/y3/fkt1k6c56xq6tqwx8c626_800000gp/T/rust_mozprofile.U2KOS9hiaEUv"
+1545206615772	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1545206615773	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+Can't find symbol 'GetGraphicsResetStatus'.
+1545206619232	Marionette	INFO	Listening on port 59961
+1545206628117	Marionette	INFO	Stopped listening on port 59961
+1545206630987	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/y3/fkt1k6c56xq6tqwx8c626_800000gp/T/rust_mozprofile.giNMAhHdnS2H"
+1545206632002	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1545206632002	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+Can't find symbol 'GetGraphicsResetStatus'.
+1545206634750	Marionette	INFO	Listening on port 60148
+1545206634830	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.google-analytics.com/gtm/js?id=GTM-TWDS64H&cid=103706493.1545206644, line 91: unreachable code after return statement
+1545206647081	Marionette	INFO	Stopped listening on port 60148
+1545206687737	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/y3/fkt1k6c56xq6tqwx8c626_800000gp/T/rust_mozprofile.qfPTogfgd9tz"
+1545206688562	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1545206688562	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+Can't find symbol 'GetGraphicsResetStatus'.
+1545206691044	Marionette	INFO	Listening on port 60607
+1545206691140	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.google-analytics.com/gtm/js?id=GTM-TWDS64H&cid=449480554.1545206700, line 91: unreachable code after return statement
+1545206701806	Marionette	INFO	Stopped listening on port 60607
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1545207024120	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/y3/fkt1k6c56xq6tqwx8c626_800000gp/T/rust_mozprofile.xIVDHgf9vXge"
+1545207025549	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1545207025550	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+Can't find symbol 'GetGraphicsResetStatus'.
+1545207029292	Marionette	INFO	Listening on port 62798
+1545207029385	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.google-analytics.com/gtm/js?id=GTM-TWDS64H&cid=89344552.1545207036, line 91: unreachable code after return statement
+1545207040882	Marionette	INFO	Stopped listening on port 62798
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1545207361680	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/y3/fkt1k6c56xq6tqwx8c626_800000gp/T/rust_mozprofile.8xdimb6TT5Wn"
+1545207362988	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1545207362989	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+Can't find symbol 'GetGraphicsResetStatus'.
+1545207366952	Marionette	INFO	Listening on port 65010
+1545207367061	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.google-analytics.com/gtm/js?id=GTM-TWDS64H&cid=1969891643.1545207384, line 91: unreachable code after return statement
+1545207388879	Marionette	INFO	Stopped listening on port 65010
+1545207402948	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/y3/fkt1k6c56xq6tqwx8c626_800000gp/T/rust_mozprofile.Jl7L6hxhpeOX"
+1545207404156	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1545207404156	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+Can't find symbol 'GetGraphicsResetStatus'.
+1545207406881	Marionette	INFO	Listening on port 65405
+1545207406974	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.google-analytics.com/gtm/js?id=GTM-TWDS64H&cid=1257571413.1545207411, line 91: unreachable code after return statement
+1545207418235	Marionette	INFO	Stopped listening on port 65405
