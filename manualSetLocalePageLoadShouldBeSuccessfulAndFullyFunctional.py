@@ -11,15 +11,19 @@ class BrowserTester:
 		self.baseUrl = url
 		self.expectedUrl = ""
 		self.status = TEST_PENDING
-		print (NORMAL_WHITE_FONT)
-				
-	def loadPage(self, selectedButton):
-		selectedButton.click()
+		self.setTerminalColors(NORMAL_WHITE_FONT)
+
+	def setTerminalColors(self, style):
+		print (style, end = '')
+
+	def verifySuccessfulPageLoad(self):
 		try:
 			assert self.isCorrectPageSuccessfullyLoaded()
 			self.status = TEST_PASSED
-		except Exception as err:
-			print (FAILED + "[ERROR] Page is not successfully loaded.")
+		except Exception: # as err:
+			self.setTerminalColors(STYLE_FAILED)
+			print ("[ERROR] Page is not successfully loaded.")
+			# print (err)
 			self.status = TEST_FAILED
 			self.quit()
 
@@ -44,13 +48,13 @@ class BrowserTester:
 
 	def result(self, testName):
 		if(self.status == TEST_PASSED):
-			resultDisplay = PASSED
+			self.setTerminalColors(STYLE_PASSED)
 
 		elif(self.status == TEST_PENDING):
-			resultDisplay = PENDING
+			self.setTerminalColors(STYLE_PENDING)
 
 		# TEST_FAILED is handled in exception
-		print (resultDisplay + testName)
+		print (testName)
 
 
 class ManualLocalePageVerifier(BrowserTester):
@@ -58,20 +62,26 @@ class ManualLocalePageVerifier(BrowserTester):
 	def testLocale(self, selectedLocale):
 		try:
 			assert self.browser.url == self.baseUrl + MANUAL_SET_LOCALE
-
-			if(AUSTRALIA == selectedLocale):
-				self.expectedUrl = self.baseUrl + AU_PATH
-				localeButton = self.browser.find_by_tag('h4')[0]
-			elif(USA == selectedLocale):
-				self.expectedUrl = self.baseUrl + US_PATH
-				localeButton = self.browser.find_by_tag('h4')[1]
-			
 			self.checkElements()
-			self.loadPage(localeButton)
+			self.findLocaleButton(selectedLocale).click()
+			self.verifySuccessfulPageLoad()
 
 		except Exception as err:
-			print (FAILED + "[ERROR] Incorrect URL provided as parameter.")
+			self.setTerminalColors(STYLE_FAILED)
+			print ("[ERROR] Incorrect URL provided as parameter.")
 			self.quit()
+
+	def findLocaleButton(self, locale):
+		localeButton = None
+
+		if(AUSTRALIA == locale):
+			self.expectedUrl = self.baseUrl + AU_PATH
+			localeButton = self.browser.find_by_tag('h4')[0]
+		elif(USA == locale):
+			self.expectedUrl = self.baseUrl + US_PATH
+			localeButton = self.browser.find_by_tag('h4')[1]
+
+		return localeButton
 
 	def checkElements(self):
 		try:
@@ -80,20 +90,25 @@ class ManualLocalePageVerifier(BrowserTester):
 			assert self.browser.find_by_text(AUSTRALIA)
 			assert self.browser.find_by_text(USA)
 		except Exception as err:
-			print (FAILED + "[ERROR] Expected element/s not displaying on website.")
+			self.setTerminalColors(STYLE_FAILED)
+			print ("[ERROR] Expected element/s not displaying on website.")
 			self.quit()			
 
 # test functions
 def manualSetLocalePageLoadShouldBeSuccessfulAndFullyFunctional():
-	chromeTester = ManualLocalePageVerifier(CHROME_BROWSER, PROD_URL_FMC_STOREFRONT)
+	chromeTester = ManualLocalePageVerifier(CHROME_BROWSER, STAGE_URL_FMC_STOREFRONT)
 	chromeTester.testLocale(AUSTRALIA)
 	chromeTester.back()
 	chromeTester.testLocale(USA)
 	chromeTester.result(manualSetLocalePageLoadShouldBeSuccessfulAndFullyFunctional.__name__)
 	chromeTester.quit()
 
+def homePageElementsShouldBeDisplayedAndFullyFunctional():
+	chromeTester = BrowserTester(CHROME_BROWSER, STAGE_URL_FMC_STOREFRONT)
+
 # test execution
 def main():
 	manualSetLocalePageLoadShouldBeSuccessfulAndFullyFunctional()
-
+	homePageElementsShouldBeDisplayedAndFullyFunctional()
+	
 main()
