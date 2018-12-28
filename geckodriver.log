@@ -408,3 +408,4 @@ Can't find symbol 'GetGraphicsResetStatus'.
 1545207406974	Marionette	WARN	TLS certificate errors will be ignored for this session
 JavaScript warning: https://www.google-analytics.com/gtm/js?id=GTM-TWDS64H&cid=1257571413.1545207411, line 91: unreachable code after return statement
 1545207418235	Marionette	INFO	Stopped listening on port 65405
+1545210615408	Marionette	INFO	Stopped listening on port 60591
