@@ -98,12 +98,11 @@ def homePageElementsShouldBeDisplayedAndFullyFunctional():
 	firefoxTester = HomePageVerifier(FIREFOX_BROWSER)
 	firefoxTester.testHomePage(STAGE_URL_FMC_STOREFRONT + AU_PATH)
 	firefoxTester.quit()
-"""
+
 # test execution
 def main():
-	# manualSetLocalePageLoadShouldBeSuccessfulAndFullyFunctional()
-	homePageElementsShouldBeDisplayedAndFullyFunctional()
+	manualSetLocalePageLoadShouldBeSuccessfulAndFullyFunctional()
+	# homePageElementsShouldBeDisplayedAndFullyFunctional()
 
 if __name__ == "__main__":
 	main()
-"""

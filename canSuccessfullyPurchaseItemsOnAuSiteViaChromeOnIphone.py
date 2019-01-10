@@ -12,7 +12,7 @@ def canSuccessfullyPurchaseItemsOnAuSiteViaChromeOnIphone():
 	"""
 
 	chromeTester = BrowserTester(CHROME_BROWSER)
-	chromeTester.visitUrl(PROD_URL_FMC_STOREFRONT + AU_PATH)
+	chromeTester.visitUrl(STAGE_URL_FMC_STOREFRONT + AU_PATH)
 	# check if elements are present
 	chromeTester.browser.find_by_css('li[class=ht-search-li').click()
 	for key in chromeTester.browser.type('query', 'car mats', slowly=True):

@@ -14,7 +14,4 @@ run $ python3 -m pip install six
 3. install requests library 
 sudo pip3 install requests
 
-4. install keyboard library
-python3 -m pip install keyboard
-
 Test Execution: On target directory, run $ python3 testFile.py
